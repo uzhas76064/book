@@ -1,0 +1,60 @@
+:root {
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Tahoma', sans-serif;
+    color: black;
+}
+
+.header {
+    padding-top: 77px;
+    padding-bottom: 96px;
+}
+
+.header-text__title {
+    font-weight: bold;
+}
+
+.header-text__subtitle {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.header-text__description {
+    font-size: 18px;
+    padding-top: 35px;
+    padding-bottom: 48px;
+    font-weight: 400;
+}
+
+.header-text__cost {
+    font-size: 48px;
+    padding-bottom: 55px;
+}
+
+.button {
+    border: 2px;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(208,104,43);
+    padding: 21px 47px;
+}
+
+.button-o {
+    color: #D0682B;
+    background: none;
+    border: 2px solid #D0682B;
+    margin-left: 47px;
+}
